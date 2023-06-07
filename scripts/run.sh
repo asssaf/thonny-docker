@@ -6,7 +6,7 @@
 # access to the X server needs to be enabled before starting the container (e.g. with "xhost +")
 
 : ${DEV:="/dev/ttyACM0"}
-: ${IMAGE:="asssaf/thonny"}
+: ${IMAGE:="asssaf/thonny:master"}
 
 docker run -it --rm \
 	-e DISPLAY=$DISPLAY \
