@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.11-buster
 
 RUN pip install thonny websockets
 
